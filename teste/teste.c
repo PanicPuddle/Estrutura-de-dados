@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+
 int main(int argc,char* argv[]){
     printf(argv[1]);
     int n = 11;
@@ -7,6 +9,12 @@ int main(int argc,char* argv[]){
     float f1= 1.5;
     double d1 = 1.599999;
     char letra = 'j';
+
+    int verifica_numero_primo(int n){
+    return 0;
+    }
+
+    printf("%d", argv[1]);
 
     //double calcula o dobro//
 
@@ -21,8 +29,9 @@ int main(int argc,char* argv[]){
 
     do{
         printf("%d",n);;
-        n++
+        n++;
     }
     while(n<10);
+    printf("\n o dobro de %f ");
     return 0;
 }
